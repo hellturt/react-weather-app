@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ddd;
+}
+
+#root{
+  display: grid;
+  margin: 0 8%;
+  text-align: center;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.titles_container{
+  margin: 100px 0 50px;
+}
+.titles_container h1{
+  margin: 0;
+}
+.titles_container p{
+  margin: 0;
+}
+
+.form_container{
+  width: 50%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 16px;
+}
+.form_container input{
+  padding: 10px;
+  border: none;
+  border: 1px solid #ddd;
+}
+.form_container button{
+  background-color: #282828;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.weather_container{
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 20px;
+}
+.single_weather{
+  padding: 10px;
+  display: grid;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.2);
+  /* grid-template-columns: auto 3fr; */
+}
+.single_weather img{
+  width: 100%;
+}
+
+.img_container h1{
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 5px;
+  background-color: #282828;
+  color: #fff;
+}
+.detail_container{
+  font-size: 14px;
+}
+.detail_container p{
+}
